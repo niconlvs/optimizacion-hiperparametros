@@ -56,7 +56,6 @@ jupyter notebook 10_Optimizacion_Hiperparametros.ipynb
   - Parámetros: `{'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 15}`  
 - **Modelo final**: accuracy 0.8057 en todo el conjunto.
 
-
-##📜 Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
