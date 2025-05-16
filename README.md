@@ -1,17 +1,17 @@
 # Optimización de Hiperparámetros con Random Forest
 
-## 🔍 Descripción
+## Descripción
 Optimización de hiperparámetros de un `RandomForestClassifier` para clasificar la ocupación de clientes usando GridSearchCV y RandomizedSearchCV.
 
-## 📁 Estructura del repositorio
-/
-├── 10_Optimizacion_Hiperparametros.ipynb # Cuaderno Jupyter con todo el flujo
-├── random_forest_final_model.pkl # Modelo serializado
-├── LICENSE # Licencia MIT
-└── README.md # Este archivo
+## Estructura del repositorio
+
+- 10_Optimizacion_Hiperparametros.ipynb # Cuaderno Jupyter con todo el flujo
+- random_forest_final_model.pkl # Modelo serializado
+- LICENSE # Licencia MIT
+- README.md # Este archivo
 
 
-## 🗄 Datos utilizados
+## Datos utilizados
 - **Origen:**  
   `https://raw.githubusercontent.com/niconlvs/ModelosML/main/transacciones.csv`  
 - **Variables predictoras:**  
@@ -19,7 +19,7 @@ Optimización de hiperparámetros de un `RandomForestClassifier` para clasificar
   - One-hot: `TransactionType_*`, `Channel_*`  
 - **Variable objetivo:** `CustomerOccupation`
 
-## 🚀 Pasos principales
+## Pasos principales
 1. **Carga y preprocesamiento**  
    - Lectura del CSV  
    - Escalado de numéricas (StandardScaler) y codificación de categóricas (OneHotEncoder)  
@@ -46,7 +46,7 @@ git clone https://github.com/niconlvs/optimizacion-hiperparametros.git
 cd optimizacion-hiperparametros
 pip install -r requirements.txt    # (genera tu propio requirements con pip freeze)
 jupyter notebook 10_Optimizacion_Hiperparametros.ipynb
-
+```
 ## 📈 Resultados obtenidos
 - **GridSearchCV**:  
   - Mejor score: 0.8053  
